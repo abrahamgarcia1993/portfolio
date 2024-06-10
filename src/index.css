@@ -135,7 +135,7 @@ aside{
 }
 
 .proyect{
-    width: 30%;
+    width: 40%;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -150,10 +150,19 @@ aside{
 .img-proyect img{
     width: 100%;
     border-radius: 8px;
+    max-height: 240px;
 }
 
 .info-proyect{
     display: flex;
     flex-direction: column;
+    gap: 24px;
+}
+h3{
+    font-size: 24px;
+}
+.icon-language{
+    display: flex;
+    justify-content: space-around;
     gap: 24px;
 }

@@ -6,18 +6,20 @@ import react from "./assets/react.svg";
 import tailwind from "./assets/tailwind.svg"; */
 import js from "./assets/js.svg";
 /* import react from "./assets/react.svg" */
-import bootstrap from "./assets/bootstrap.svg"
-import mySql from "./assets/mysql.svg"
-import rickandmorty from "./assets/rickandmorty.png"
+import bootstrap from "./assets/bootstrap.svg";
+import mySql from "./assets/mysql.svg";
+import rickandmorty from "./assets/rickandmorty.png";
+import imagenesModal from "./assets/ImagenesModal.png";
+import tictactoc from "./assets/tictactoc.png"
 const Proyectos = () => {
   return (
     <div className="proyect-container">
       <div className="proyect">
         <div className="img-proyect">
-          <img src="" alt="" />
+          <img src={tictactoc} alt="" />
         </div>
         <div className="info-proyect">
-          <h3>Carrusel</h3>
+          <h3>TIC TAC TOC</h3>
         </div>
         <div className="icon-language">
           <img src={html} alt="" />
@@ -32,10 +34,10 @@ const Proyectos = () => {
         <div className="info-proyect">
           <h3>RICK AND MORTYS API</h3>
           <div className="icon-language">
-          <img src={html} alt="" />
-          <img src={css} alt="" />
-          <img src={js} alt="" />
-        </div>
+            <img src={html} alt="" />
+            <img src={css} alt="" />
+            <img src={js} alt="" />
+          </div>
         </div>
       </div>
       <div className="proyect">
@@ -45,21 +47,25 @@ const Proyectos = () => {
         <div className="info-proyect">
           <h3>CRUD Ecommerce</h3>
           <div className="icon-language">
-          <img src={html} alt="" />
-          <img src={css} alt="" />
-          <img src={js} alt="" />
-          <img src={mySql} alt="" />
-          <img src={bootstrap} alt="" />
-
-        </div>
+            <img src={html} alt="" />
+            <img src={css} alt="" />
+            <img src={js} alt="" />
+            <img src={mySql} alt="" />
+            <img src={bootstrap} alt="" />
+          </div>
         </div>
       </div>
       <div className="proyect">
         <div className="img-proyect">
-          <img src="" alt="" />
+          <img src={imagenesModal} alt="" />
         </div>
         <div className="info-proyect">
-          <h3></h3>
+          <h3>IMAGENES MODAL</h3>
+          <div className="icon-language">
+            <img src={html} alt="" />
+            <img src={css} alt="" />
+            <img src={js} alt="" />
+          </div>
         </div>
       </div>
     </div>

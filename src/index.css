@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+body{
+    background-color: #1B263B;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+header ol{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    padding: 40px;
+}
+header ol li{
+    font-size: 20px;
+}
+
+.principal-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.img-perfil{
+    width: 40%;
+    }
+    .img-perfil img{
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 2px 2px 8px black;
+}
+.text-perfil{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:16px;
+    padding: 40px;
+    line-height: 32px;
+    font-size: 20px;
+    text-align: center;
+}
+h2{
+    text-shadow: 1px 1px 10px black;
+    font-size: 32px;
+}
+aside{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+.language{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    gap: 32px;
+}
+
+.language div{
+    padding: 40px;
+    border-radius: 12px;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.html{
+    border: 1px solid #E34F26;
+    box-shadow: 1px 1px 4px #E34F26;
+}
+.css{
+    border: 1px solid #1572B6;
+    box-shadow: 1px 1px 4px #1572B6;
+    
+}
+.js{
+    border: 1px solid #F0DB4F ;
+    box-shadow: 1px 1px 4px #F0DB4F ;
+    
+}
+    
+.react{
+        
+        border: 1px solid #61DAFB;
+        box-shadow: 1px 1px 4px #61DAFB;
+}
+.node{
+    border: 1px solid #68A063;
+    box-shadow: 1px 1px 4px #68A063;
+}
+.docker{
+    border: 1px solid #2496ED;
+    box-shadow: 1px 1px 4px #2496ED;
+}
+
+.mysql{
+    border: 1px solid #4479A1;
+    box-shadow: 1px 1px 4px #4479A1;
+}
+
+.mongodb{
+    border: 1px solid #47A248;
+    box-shadow: 1px 1px 4px #47A248;
+}
+
+.bootstrap{
+    border: 1px solid #563D7C;
+    box-shadow: 1px 1px 4px #563D7C;
+}
+.tailwind{
+    border: 1px solid #38B2AC;
+    box-shadow: 1px 1px 4px #38B2AC;
+}
+.proyect-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.proyect{
+    width: 30%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.img-proyect{
+    width: 100%;
+}
+.img-proyect img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.info-proyect{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}

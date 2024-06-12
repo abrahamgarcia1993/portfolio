@@ -9,8 +9,9 @@ import js from "./assets/js.svg";
 import bootstrap from "./assets/bootstrap.svg";
 import mySql from "./assets/mysql.svg";
 import rickandmorty from "./assets/rickandmorty.png";
-import imagenesModal from "./assets/ImagenesModal.png";
+import imagenesModal from "./assets/imagenesModal.png";
 import tictactoc from "./assets/tictactoc.png"
+import talasa from "./assets/talasa.png"
 const Proyectos = () => {
   return (
     <div className="proyect-container">
@@ -42,16 +43,14 @@ const Proyectos = () => {
       </div>
       <div className="proyect">
         <div className="img-proyect">
-          <img src="" alt="" />
+          <img src={talasa} alt="" />
         </div>
         <div className="info-proyect">
-          <h3>CRUD Ecommerce</h3>
+          <h3>WEB TALASA SALVAMENTO</h3>
           <div className="icon-language">
             <img src={html} alt="" />
             <img src={css} alt="" />
             <img src={js} alt="" />
-            <img src={mySql} alt="" />
-            <img src={bootstrap} alt="" />
           </div>
         </div>
       </div>

@@ -147,11 +147,17 @@ aside{
 .img-proyect{
     width: 100%;
 }
+.img-proyect:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease-out;
+
+}
+
 .img-proyect img{
     width: 100%;
     border-radius: 8px;
-    max-height: 240px;
 }
+
 
 .info-proyect{
     display: flex;
